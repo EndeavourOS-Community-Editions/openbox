@@ -1,0 +1,29 @@
+# compositor - background process + disable shadowing effects during session
+picom -CGb &
+
+# power management
+xfce4-power-manager &
+
+# notifications
+/usr/bin/dunst &
+
+# panel - taskbar, system tray, battery, clock
+tint2 &
+
+# network manager
+nm-applet &
+
+# Autostart
+dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
+
+# Set display from arandr saved script
+sh ~/.screenlayout/monitor.sh &
+
+# Polkit
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+# Wallpaper
+nitrogen --restore &
+
+
+

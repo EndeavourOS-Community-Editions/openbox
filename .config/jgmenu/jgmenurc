@@ -1,0 +1,43 @@
+
+# jgmenurc
+
+at_pointer      = 0
+stay_alive      = 0
+multi_window    = 1
+tint2_look      = 1
+
+menu_halign     = left
+menu_valign     = bottom
+menu_margin_x   = 10
+menu_margin_y   = 45
+
+menu_width      = 250
+menu_radius     = 10
+menu_border     = 1
+
+menu_padding_top    = 5
+menu_padding_right  = 2
+menu_padding_bottom = 5
+menu_padding_left   = 2
+
+item_height      = 30
+item_padding_x   = 10
+item_margin_y    = 10
+item_radius      = 0
+item_border      = 0
+sep_height       = 3
+
+icon_size        = 24
+font             = UbuntuMono 12px
+
+sub_hover_action = 1
+terminal_exec    = xfce4-terminal
+terminal_args    = -e
+
+color_menu_bg    = #383c4a 100
+color_menu_fg    = #8fa1b3 100
+color_norm_bg    = #2b303b 0
+color_norm_fg    = #8fa1b3 100
+color_sel_bg     = #5294e2 100
+color_sel_fg     = #2b303b 100
+color_sep_fg     = #7c818c 40

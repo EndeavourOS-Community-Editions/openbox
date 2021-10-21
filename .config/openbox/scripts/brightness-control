@@ -1,0 +1,11 @@
+#!/bin/bash
+
+msgId="991001"
+
+if [ "$1" = "up" ]; then
+    xbacklight -inc 5
+elif [ "$1" = "down"]; then
+    xbacklight -dec 5
+fi
+
+dunstify -u low -r "$msgId" "Brightness $(xbacklight -get | cut -d . -f 1)%"

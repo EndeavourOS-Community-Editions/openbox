@@ -1,0 +1,16 @@
+#!/bin/bash
+
+msgId="991002"
+
+if [ "$1" = "up" ]; then
+    amixer -q set Master 5%+ unmute
+    volume=$(awk -F"[][]" '/Left:/ { print $2 }' <(amixer sget Master))
+elif [ "$1" = "down" ]; then
+    amixer -q set Master 5%- unmute
+    volume=$(awk -F"[][]" '/Left:/ { print $2 }' <(amixer sget Master))
+elif [ "$1" = "toggle" ]; then
+    amixer -D pulse sset Master toggle-mute
+    volume=$(awk -F"[][]" '/Left:/ { print $6 }' <(amixer sget Master))
+fi
+
+dunstify -u low -r "$msgId" "Volume $volume"
