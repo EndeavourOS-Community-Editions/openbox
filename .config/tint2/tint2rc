@@ -107,7 +107,7 @@ border_color_pressed = #d9d9d9 100
 
 #-------------------------------------
 # Panel
-panel_items = PFLTSCP
+panel_items = PFLTSBCP
 panel_size = 100% 35
 panel_margin = 0 0
 panel_padding = 0 0 15
