@@ -4,7 +4,7 @@
 
 ## To Install manually
 
-    git clone https://github.com/OdiousImp2604/openbox.git
+    git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
 
     cd openbox
 
