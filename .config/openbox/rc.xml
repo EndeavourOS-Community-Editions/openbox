@@ -531,7 +531,7 @@
     <!-- Take a screenshot, say "Cheeeese!" -->
     <keybind key="Print">
       <action name="Execute">
-        <command>scrot ~/Pictures/Screenshot-$(date +%F_%T).png</command>
+        <command>scrot ~/Pictures/Screenshot-%Y-%m-%d_%H:%M:%S.png</command>
       </action>
     </keybind>
     <keybind key="W-Print">
