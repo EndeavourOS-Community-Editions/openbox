@@ -11,7 +11,7 @@ tint2 &
 nm-applet &
 
 # Autostart
-dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
+dex -a -s /etc/xdg/autostart/:~/.config/autostart/ &
 
 # Set display from arandr saved script
 sh ~/.screenlayout/monitor.sh &
