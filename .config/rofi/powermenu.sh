@@ -1,11 +1,11 @@
 #!/bin/env bash
 
 # Options for powermenu
-lock="......Lock"
-logout=".....Logout"
-shutdown="....Shutdown"
-reboot="....Reboot"
-sleep="....Sleep"
+lock=" Lock"
+logout=" Logout"
+shutdown=" Shutdown"
+reboot=" Reboot"
+sleep=" Sleep"
 
 # Get answer from user via rofi
 selected_option=$(echo "$lock
@@ -16,7 +16,7 @@ $shutdown" | rofi -dmenu\
                   -i\
                   -p "Power"\
                   -config "~/.config/rofi/powermenu.rasi"\
-                  -font "Symbols Nerd Font 12"\
+                  -font "Symbols Nerd Font 10"\
                   -width "15"\
                   -lines 5\
                   -line-margin 3\
