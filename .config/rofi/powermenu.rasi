@@ -19,14 +19,14 @@ window {
     border:                         0;
     padding:                        10;
     transparency:                   "real";
-    width:                          180px;
+    width:                          100px;
     location:                       southeast;
 y-offset:                       -37px;
 /*x-offset:	                    850;*/
     transparency:                   "real";
 }
 listview {
-    lines:                          6;
+    lines:                          5;
     columns:                        1;
     scrollbar:			false;
 }
