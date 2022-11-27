@@ -1,5 +1,10 @@
 # compositor - background process + disable shadowing effects during session
-picom -CGb &
+#picom -CGb &
+# edit: (27 nov. 2022) picom now starts automatic vie xdg autostart (dex is enabled here) 
+# it will read config under:
+# ~/.config/picom.conf  see ~/.config/picom.conf.example for reference or copy default one there 
+# and edit to your needs:
+# cp /etc/xdg/picom.conf.example ~/.config/picom.conf
 
 # notifications
 /usr/bin/dunst &
