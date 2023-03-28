@@ -854,6 +854,9 @@
           <menu>client-list-combined-menu</menu>
         </action>
       </mousebind>
+      <mousebind action="Press" button="Middle">
+        <action name="ToggleShowDesktop"/>
+      </mousebind>
     </context>
   </mouse>
   <menu>
