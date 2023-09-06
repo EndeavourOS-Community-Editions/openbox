@@ -1,3 +1,6 @@
+## unmaintained needs contributors or maintainer
+
+
 # Openbox-wm Setup and Theme for EndeavourOS
 
 **Openbox EndeavorOS Community Edition**
