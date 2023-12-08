@@ -641,13 +641,52 @@
       </mousebind>
     </context>
     <context name="Frame">
+      <!--
       <mousebind button="W-Left" action="Drag">
         <action name="Move"/>
       </mousebind>
+      //-->
+      <mousebind button="W-Left" action="Drag">
+        <action name="if">
+          <maximized>yes</maximized>
+          <then>
+            <action name="UnmaximizeFull"/>
+            <action name="MoveResizeTo">
+              <x>center</x>
+              <y>current</y>
+            </action>
+            <action name="Move"/>
+          </then>
+          <else>
+            <action name="Move"/>
+          </else>
+        </action>
+      </mousebind>
+      <mousebind button="W-Right" action="Drag">
+        <action name="Resize"/>
+      </mousebind>
     </context>
     <context name="Titlebar">
+      <!--
       <mousebind button="Left" action="Drag">
         <action name="Move"/>
+      </mousebind>
+      //-->
+      <mousebind button="Left" action="Drag">
+        <action name="if">
+          <maximized>yes</maximized>
+          <then>
+            <action name="UnmaximizeFull"/>
+            <action name="MoveResizeTo">
+              <x>center</x>
+              <y>current</y>
+            </action>
+            <action name="Move"/>
+          </then>
+          <else>
+            <action name="Move"/>
+          </else>
+        </action>
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
         <action name="ToggleMaximizeFull"/>
@@ -803,6 +842,32 @@
         <action name="Close"/>
       </mousebind>
     </context>
+    <context name="Desktop">
+      <mousebind action="Click" button="Left">
+        <action name="Focus"/>
+      </mousebind>
+      <mousebind action="Click" button="A-Up">
+        <action name="GoToDesktop">
+          <to>previous</to>
+        </action>
+      </mousebind>
+      <mousebind action="Click" button="A-Down">
+        <action name="GoToDesktop">
+          <to>next</to>
+        </action>
+      </mousebind>
+      <!-- Mouse Middle Scroll to Switch Workspace on Desktop //-->
+      <mousebind action="Click" button="Up">
+        <action name="GoToDesktop">
+          <to>previous</to>
+        </action>
+      </mousebind>
+      <mousebind action="Click" button="Down">
+        <action name="GoToDesktop">
+          <to>next</to>
+        </action>
+      </mousebind>
+    </context>
     <context name="Root">
       <!-- Menus -->
       <mousebind button="Right" action="Press">
@@ -814,6 +879,9 @@
         <action name="ShowMenu">
           <menu>client-list-combined-menu</menu>
         </action>
+      </mousebind>
+      <mousebind action="Press" button="Middle">
+        <action name="ToggleShowDesktop"/>
       </mousebind>
     </context>
   </mouse>
