@@ -1,4 +1,4 @@
-## unmaintained needs contributors or maintainer
+~~## unmaintained needs contributors or maintainer~~
 
 
 # Openbox-wm Setup and Theme for EndeavourOS
