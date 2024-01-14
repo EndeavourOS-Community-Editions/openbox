@@ -8,7 +8,6 @@ dmenu
 dunst
 eos-lightdm-slick-theme
 eos-qogir-icons
-#eos-skel-ce-openbox #not needed for manual script
 feh
 gtk-engine-murrine
 gvfs
