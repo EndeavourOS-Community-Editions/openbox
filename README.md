@@ -11,7 +11,7 @@
      1a. Arm devices, go to https://endeavouros.com/endeavouros-arm-install/
          and install the image for your ARM device on a uSD or other storage device.
   2. Select "No desktop" during the Calamares install.
-  3. After Calamares install, reboot
+  2. After Calamares install, reboot
   4. switch to TTY3 (Ctrl-Alt-F3)
   5. Login and run:
      git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
