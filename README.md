@@ -1,4 +1,4 @@
-~~## unmaintained needs contributors or maintainer~~
+## unmaintained needs contributors or maintainer
 
 
 # Openbox-wm Setup and Theme for EndeavourOS
@@ -7,11 +7,18 @@
 
 ## To Install manually
 
-    git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
-
-    cd openbox
-
-    bash openbox-install.sh
+  1. Boot from the Galileo ISO, or the latest ISO
+     1a. Arm devices, go to https://endeavouros.com/endeavouros-arm-install/
+         and install the image for your ARM device on a uSD or other storage device.
+  2. Select "No desktop" during the Calamares install.
+  3. After Calamares install, reboot
+  4. switch to TTY3 (Ctrl-Alt-F3)
+  5. Login and run:
+     git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
+     cd openbox
+     bash openbox-install.sh  (see if this is executable, if not "chmod 755 openbox-install.sh")
+  6. Reboot and login via lightdm
+  7. Remove the openbox folder in your home directory.
 
 ## Contained In The Script
 
