@@ -7,24 +7,24 @@
 
 ## To Install manually
 
-  Boot from the Galileo ISO, or the latest ISO
-   Arm devices, go to https://endeavouros.com/endeavouros-arm-install/
-   and install the image for your ARM device on a uSD or other storage device.
+     Boot from the Galileo ISO, or the latest ISO
+       Arm devices, go to https://endeavouros.com/endeavouros-arm-install/
+       and install the image for your ARM device on a uSD or other storage device.
      
-  Select "No desktop" during the Calamares install.
+     Select "No desktop" during the Calamares install.
   
-  After Calamares install, reboot
+     After Calamares install, reboot
    
-  switch to TTY3 (Ctrl-Alt-F3)
+     switch to TTY3 (Ctrl-Alt-F3)
   
-  Login and run:
-   git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
-   cd openbox
-   bash openbox-install.sh  (see if this is executable, if not "chmod 755 openbox-install.sh")
+     Login and run:
+      git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
+      cd openbox
+      bash openbox-install.sh  (see if this is executable, if not "chmod 755 openbox-install.sh")
      
-  Reboot and login via lightdm
+     Reboot and login via lightdm
   
-  Remove the openbox folder in your home directory.
+     Remove the openbox folder in your home directory.
 
 ## Contained In The Script
 
