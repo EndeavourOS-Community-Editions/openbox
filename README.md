@@ -8,8 +8,8 @@
 ## To Install manually
 
   Boot from the Galileo ISO, or the latest ISO
-  Arm devices, go to https://endeavouros.com/endeavouros-arm-install/
-  and install the image for your ARM device on a uSD or other storage device.
+   Arm devices, go to https://endeavouros.com/endeavouros-arm-install/
+   and install the image for your ARM device on a uSD or other storage device.
      
   Select "No desktop" during the Calamares install.
   
