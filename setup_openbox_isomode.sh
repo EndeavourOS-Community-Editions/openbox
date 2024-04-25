@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-username="$1
+username="$1"
 
 git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
 cd openbox
