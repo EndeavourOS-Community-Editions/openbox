@@ -7,6 +7,9 @@
 
 https://youtu.be/8XgwymrVC_o?si=DxPz0_CfvBaXAmPi
 [![video tutorial]({https://raw.githubusercontent.com/EndeavourOS-Community-Editions/openbox/main/openbox-screenshot.png})]({https://youtu.be/8XgwymrVC_o?si=DxPz0_CfvBaXAmPi} "watch on YT")
+
+[<img src="https://raw.githubusercontent.com/EndeavourOS-Community-Editions/openbox/main/openbox-screenshot.png" width="50%">](https://youtu.be/8XgwymrVC_o?si=DxPz0_CfvBaXAmPi "watch on YT")
+
 ## To Install manually
 
      Boot from the Galileo ISO, or the latest ISO
