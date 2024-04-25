@@ -1,6 +1,6 @@
 ## unmaintained needs contributors or maintainer
 
->> checked by joekamprad April 2024 and it is working properly <<
+>> checked by joekamprad April 2024 and it is working properly
 
 
 # Openbox-wm Setup and Theme for EndeavourOS
