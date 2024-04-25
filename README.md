@@ -1,5 +1,7 @@
 ## unmaintained needs contributors or maintainer
 
+>> checked by joekamprad April 2024 and it is working properly <<
+
 
 # Openbox-wm Setup and Theme for EndeavourOS
 
@@ -54,3 +56,5 @@ Get involved at our forum: https://forum.endeavouros.com/t/openbox-edition/13692
   -  Default Terminal-Emulator = xfce4-terminal
   -  Text-Editor = xed
   -  Application Launcher = Rofi
+
+![openbox](https://raw.githubusercontent.com/EndeavourOS-Community-Editions/openbox/main/openbox-screenshot.png)
