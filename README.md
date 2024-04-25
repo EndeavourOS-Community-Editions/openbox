@@ -33,7 +33,7 @@
 
      Or use the option on ISO to add custom script: https://github.com/EndeavourOS-Community-Editions/.github/blob/main/profile/README.md  
 
-     `https://raw.githubusercontent.com/EndeavourOS-Community-Editions/openbox/main/setup_openbox_isomode.sh`
+     https://raw.githubusercontent.com/EndeavourOS-Community-Editions/openbox/main/setup_openbox_isomode.sh
 
      add this into the option on welcome screen run online install and select "no Desktop" inside installer.
 
