@@ -12,7 +12,7 @@
 
 ## To Install manually
 
-     Boot from the Galileo ISO, or the latest ISO
+     Boot from the latest ISO
        Arm devices, go to https://endeavouros.com/endeavouros-arm-install/
        and install the image for your ARM device on a uSD or other storage device.
      
@@ -30,6 +30,12 @@
      Reboot and login via lightdm
   
      Remove the openbox folder in your home directory.
+
+     Or use the option on ISO to add custom script: https://github.com/EndeavourOS-Community-Editions/.github/blob/main/profile/README.md  
+
+     `https://raw.githubusercontent.com/EndeavourOS-Community-Editions/openbox/main/setup_openbox_isomode.sh`
+
+     add this into the option on welcome screen run online install and select "no Desktop" inside installer.
 
 ## Contained In The Script
 
