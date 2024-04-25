@@ -7,7 +7,6 @@
 
 [<img src="https://raw.githubusercontent.com/EndeavourOS-Community-Editions/openbox/main/openbox-play-tutorial.png" width="50%">](https://youtu.be/8XgwymrVC_o?si=DxPz0_CfvBaXAmPi "watch on YT")
 
-<small>click pic to watch tutorial on yt</small>
 
 ## To Install manually
 
