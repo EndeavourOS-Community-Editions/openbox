@@ -24,7 +24,9 @@ lxappearance-gtk3
 mpv
 network-manager-applet
 nitrogen
-obconf
+# obconf removed from repos
+lxappearance-obconf
+lxappearance-obconf-gtk3
 openbox
 pasystray
 picom
