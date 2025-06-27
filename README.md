@@ -61,7 +61,7 @@ chmod -R +x ~/.config/openbox/scripts
 chmod -R +x ~/.config/rofi/scripts
     
 sudo yay -Syu --needed --noconfirm - < packages-repository.txt
-``
+```
 
 Get involved at our forum: https://forum.endeavouros.com/t/openbox-edition/13692
 
