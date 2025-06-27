@@ -11,6 +11,7 @@
 
 
 ## To Install manually
+
 1. Boot from the latest ISO
        Arm devices, go to https://endeavouros.com/endeavouros-arm-install/
        and install the image for your ARM device on a uSD or other storage device.
@@ -34,6 +35,7 @@ bash openbox-install.sh
 7. Remove the openbox folder in your home directory.
 
      
+## install directly with the ISO:
 
 Or use the option on ISO to add custom script: https://github.com/EndeavourOS-Community-Editions/.github/blob/main/profile/README.md  
 
@@ -42,6 +44,9 @@ https://raw.githubusercontent.com/EndeavourOS-Community-Editions/openbox/main/se
 ```
 
 add this into the option on welcome screen run online install and select "no Desktop" inside installer.
+
+for details see this:
+https://github.com/EndeavourOS-Community-Editions/.github/blob/main/profile/README.md
 
 ## Contained In The Script
 
