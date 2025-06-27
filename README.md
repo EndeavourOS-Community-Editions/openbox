@@ -51,17 +51,17 @@ https://github.com/EndeavourOS-Community-Editions/.github/blob/main/profile/READ
 
 ## Contained In The Script
 
-    cp -R .config/* ~/.config/
+```
+cp -R .config/* ~/.config/
     
-    cp .gtkrc-2.0 ~/.gtkrc-2.0
+cp .gtkrc-2.0 ~/.gtkrc-2.0
 
-    chmod -R +x ~/.config/openbox/scripts
+chmod -R +x ~/.config/openbox/scripts
 
-    chmod -R +x ~/.config/rofi/scripts
+chmod -R +x ~/.config/rofi/scripts
     
-    sudo yay -Syu --needed --noconfirm - < packages-repository.txt
-
-    dbus-launch dconf load / < xed.dconf
+sudo yay -Syu --needed --noconfirm - < packages-repository.txt
+``
 
 Get involved at our forum: https://forum.endeavouros.com/t/openbox-edition/13692
 
