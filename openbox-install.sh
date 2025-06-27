@@ -12,4 +12,3 @@ chmod +x ~/.config/rofi/powermenu.sh
 sudo pacman -Syu --needed --noconfirm - < packages-repository.txt
 sudo systemctl enable lightdm.service
 # eos-packagelist --install "Openbox Edition"
-dbus-launch dconf load / < xed.dconf
