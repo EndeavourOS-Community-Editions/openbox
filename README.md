@@ -69,7 +69,7 @@ Get involved at our forum: https://forum.endeavouros.com/t/openbox-edition/13692
 ## Tutorial for Openbox-wm settings:
 
   -  Background handled by nitrogen
-  -  Gtk3 theme handled by obconf
+  -  Gtk3 theme handled by lxappearance-obconf
   -  Filebrowser = Thunar
   -  Default Terminal-Emulator = xfce4-terminal
   -  Text-Editor = xed
