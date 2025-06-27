@@ -1,4 +1,5 @@
 ## unmaintained needs contributors or maintainer
+>> checked and fixed package repo changes by joekamprad 27 June 2025 (working properly again)
 
 >> checked by joekamprad April 2024 and it is working properly
 
