@@ -12,20 +12,23 @@
 
 ## To Install manually
 
-     Boot from the latest ISO
+     1. Boot from the latest ISO
        Arm devices, go to https://endeavouros.com/endeavouros-arm-install/
        and install the image for your ARM device on a uSD or other storage device.
      
-     Select "No desktop" during the Calamares install.
+     2. Select "No desktop" during the Calamares install.
   
-     After Calamares install, reboot
+     3. After Calamares install, reboot
    
-     switch to TTY3 (Ctrl-Alt-F3)
+     4. switch to TTY3 (Ctrl-Alt-F3)
   
-     Login and run:
-      git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
+     5. Login and run:
+     ```
+     git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
       cd openbox
-      bash openbox-install.sh  (see if this is executable, if not "chmod 755 openbox-install.sh")
+      bash openbox-install.sh
+     ``
+      (see if this is executable, if not "chmod 755 openbox-install.sh")
      
      Reboot and login via lightdm
   
