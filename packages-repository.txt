@@ -21,12 +21,11 @@ jq
 lightdm
 lightdm-slick-greeter
 lxappearance-gtk3
+lxappearance-obconf
+lxappearance-obconf-gtk3
 mpv
 network-manager-applet
 nitrogen
-# obconf removed from repos
-lxappearance-obconf
-lxappearance-obconf-gtk3
 openbox
 pasystray
 picom
