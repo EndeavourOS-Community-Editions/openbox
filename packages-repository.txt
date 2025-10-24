@@ -20,8 +20,8 @@ jgmenu
 jq
 lightdm
 lightdm-slick-greeter
-lxappearance-gtk3
-lxappearance-obconf-gtk3
+lxappearance
+lxappearance-obconf
 mpv
 network-manager-applet
 nitrogen
