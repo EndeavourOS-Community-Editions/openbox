@@ -25,7 +25,7 @@ sh ~/.screenlayout/monitor.sh &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 # Wallpaper
-nitrogen --restore &
+sleep 1 && feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png &
 
 # Low battery notifier
 ~/.config/openbox/scripts/low_bat_notifier.sh &
