@@ -24,7 +24,6 @@ lxappearance
 lxappearance-obconf
 mpv
 network-manager-applet
-nitrogen
 openbox
 pasystray
 picom
