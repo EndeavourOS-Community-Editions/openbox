@@ -10,6 +10,7 @@ fi
 
 git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
 cd openbox
+sudo pacman -Syu --needed --noconfirm - < packages-repository.txt
 cp -R .config /home/$NEW_USER/                                               
 cp .gtkrc-2.0 /home/$NEW_USER/
 chown -R $NEW_USER:$NEW_USER /home/$NEW_USER/.local
