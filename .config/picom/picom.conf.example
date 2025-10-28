@@ -1,5 +1,8 @@
 # Thank you code_nomad: http://9m.no/ꪯ鵞
 # and Arch Wiki contributors: https://wiki.archlinux.org/index.php/Compton
+# to use default config and start from there to apply to yor needs copy it here:
+# cp /usr/share/doc/picom/picom.conf.example ~/.config/picom/picom.conf
+
 
 #################################
 #
