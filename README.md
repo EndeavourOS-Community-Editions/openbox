@@ -76,5 +76,6 @@ Get involved at our forum: https://forum.endeavouros.com/t/openbox-edition/13692
   -  Default Terminal-Emulator = xfce4-terminal
   -  Text-Editor = xed
   -  Application Launcher = Rofi
+  -  composition (transparency) picom see here: ![picom-settings](https://github.com/EndeavourOS-Community-Editions/openbox/tree/main/.config/picom)
 
 ![openbox](https://raw.githubusercontent.com/EndeavourOS-Community-Editions/openbox/main/openbox-screenshot.png)
