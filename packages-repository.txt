@@ -8,6 +8,7 @@ dmenu
 dunst
 eos-lightdm-slick-theme
 eos-qogir-icons
+endeavouros-xfce4-terminal-colors
 feh
 gvfs
 gvfs-afc
