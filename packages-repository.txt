@@ -9,7 +9,6 @@ dunst
 eos-lightdm-slick-theme
 eos-qogir-icons
 feh
-gtk-engine-murrine
 gvfs
 gvfs-afc
 gvfs-gphoto2
