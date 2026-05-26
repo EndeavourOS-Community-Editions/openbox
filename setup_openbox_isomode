@@ -31,7 +31,7 @@ chown -R "$USER_NAME:$USER_NAME" "$USER_HOME/.config"
 chown -R "$USER_NAME:$USER_NAME" "$USER_HOME/.themes"
 chown "$USER_NAME:$USER_NAME" "$USER_HOME/.gtkrc-2.0"
 chmod -R +x "$USER_HOME/.config/openbox/scripts"
-chmod -R +x "$USER_HOME/.config/rofi/scripts"
+chmod +x "$USER_HOME/.config/rofi/powermenu.sh"
 
 # 4. Clean up repo
 cd ..
