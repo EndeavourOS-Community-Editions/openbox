@@ -29,9 +29,9 @@
 ```
 git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
 cd openbox
-bash openbox-install.sh
+bash openbox-install
 ```
-(see if this is executable, if not "chmod 755 openbox-install.sh")
+(see if this is executable, if not "chmod 755 openbox-install")
      
 6. Reboot and login via lightdm
   
