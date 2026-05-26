@@ -1,17 +1,44 @@
 #!/usr/bin/env bash
-username="$1"
+# EndeavourOS Openbox Install — ISO Mode
+# Run after a No-Desktop install.
+# Usage: bash openbox_install <username>
 
+set -e
+
+USER_NAME="$1"
+USER_HOME="/home/$USER_NAME"
+
+# Optional: remove if username is always guaranteed by the calling environment
+if [ -z "$USER_NAME" ]; then
+    echo "Error: no username provided. Usage: $0 <username>"
+    exit 1
+fi
+
+echo "Installing Openbox environment for: $USER_NAME"
+
+# 1. Clone config repo
 git clone https://github.com/EndeavourOS-Community-Editions/openbox.git
 cd openbox
-cp -R .config /home/$username/                                               
-cp .gtkrc-2.0 /home/$username/
-chown -R $username:$$username /home/$username/.local
-chown -R $username:$username /home/$username/.config
-chown $username:$username /home/$username/.gtkrc-2.0
-chmod -R +x /home/$username/.config/openbox/scripts
-chmod -R +x /home/$username/.config/rofi/scripts
+
+# 2. Deploy base config
+cp -R .config "$USER_HOME/"
+cp .gtkrc-2.0 "$USER_HOME/"
+
+# 3. Fix permissions and ownership
+chown -R "$USER_NAME:$USER_NAME" "$USER_HOME/.config"
+chown -R "$USER_NAME:$USER_NAME" "$USER_HOME/.local"
+chown "$USER_NAME:$USER_NAME" "$USER_HOME/.gtkrc-2.0"
+chmod -R +x "$USER_HOME/.config/openbox/scripts"
+chmod -R +x "$USER_HOME/.config/rofi/scripts"
+
+# 4. Clean up repo
 cd ..
 rm -rf openbox
+
+# 5. Install packages and enable display manager
 wget https://raw.githubusercontent.com/EndeavourOS-Community-Editions/openbox/main/packages-repository.txt
 pacman -S --needed --noconfirm - < packages-repository.txt
+
 systemctl enable lightdm
+
+echo "Done."
