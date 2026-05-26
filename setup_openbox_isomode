@@ -25,8 +25,9 @@ cp -R .config "$USER_HOME/"
 cp .gtkrc-2.0 "$USER_HOME/"
 
 # 3. Fix permissions and ownership
+
 chown -R "$USER_NAME:$USER_NAME" "$USER_HOME/.config"
-chown -R "$USER_NAME:$USER_NAME" "$USER_HOME/.local"
+#chown -R "$USER_NAME:$USER_NAME" "$USER_HOME/.local"
 chown "$USER_NAME:$USER_NAME" "$USER_HOME/.gtkrc-2.0"
 chmod -R +x "$USER_HOME/.config/openbox/scripts"
 chmod -R +x "$USER_HOME/.config/rofi/scripts"
