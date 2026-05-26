@@ -63,7 +63,7 @@ cp .gtkrc-2.0 ~/.gtkrc-2.0
 
 chmod -R +x ~/.config/openbox/scripts
 
-chmod -R +x ~/.config/rofi/scripts
+chmod +x ~/.config/rofi/powermenu.sh
     
 sudo yay -Syu --needed --noconfirm - < packages-repository.txt
 ```
