@@ -1,4 +1,7 @@
 ## Maintained to fix for changes and issues only by joekamprad (killajoe)
+
+>> checked and fixed and tested 05/27/2026 by joekamprad
+
 >> checked fixed and tested 10/27/25 by joekamprad (working properly to use on ISO and manually) 
 
 >> checked and fixed package repo changes by joekamprad 27 June 2025 (working properly again)
