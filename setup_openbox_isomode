@@ -23,7 +23,7 @@ cd openbox
 # 2. Deploy base config
 cp -R .config "$USER_HOME/"
 cp .gtkrc-2.0 "$USER_HOME/"
-cp .themes "$USER_HOME/"
+cp -R .themes "$USER_HOME/"
 
 # 3. Fix permissions and ownership
 
